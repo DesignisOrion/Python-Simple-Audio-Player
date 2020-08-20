@@ -4,7 +4,7 @@ from pygame import mixer  # importing mixer from pygame framework
 
 mixer.init()  # start the mixer
 
-mixer.music.load("KBSC.mp3")  # Load the song
+mixer.music.load("beat.mp3")  # Load the song
 mixer.music.set_volume(0.7)  # set the volume
 mixer.music.play()  # Play the mixer
 
